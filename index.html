@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL WEBSITE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.css">
+</head>
+<body>
+    
+    <!--header starts here-->
+        <header class="header">
+            <a href="" class="logo"><i class="fas fa-hotel"></i>Hotel</a>
+
+            <nav class="navbar">
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#room">room</a>
+                <a href="#gallary">gallary</a>
+                <a href="#review">review</a>
+                <a href="#faq">faq</a>
+                <a href="#reservation" class="btn"> book now</a>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </nav>
+            <div class="mobile">
+                <i id="menu-btn" class="fas fa-bars"></i>
+                <i id="close" class="fa fa-times"></i>
+            </div>
+        </header>
+    <!--header ends here-->
+
+    <!--home starts here-->
+    <section class="home" id="home">
+        <div class="swiper home-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide" style="background: url(images/home-slide1.jpg) no-repeat">
+                    <div class="content">
+                        <h1>Its where dreams come true</h1>
+                        <a href="#" class="btn">Visit our offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background: url(images/home-slide2.jpg) no-repeat;">
+                    <div class="content">
+                        <h1>Its where dreams come true</h1>
+                        <a href="#" class="btn">Visit our offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background: url(images/home-slide3.jpg) no-repeat;">
+                    <div class="content">
+                        <h1>Its where dreams come true</h1>
+                        <a href="#" class="btn">Visit our offer</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide" style="background: url(images/home-slide4.jpg) no-repeat;">
+                    <div class="content">
+                        <h1>Its where dreams come true</h1>
+                        <a href="#" class="btn">Visit our offer</a>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!--home ends here-->
+
+    <!--Avaliability starts here-->
+    <section class="avaliability">
+        <form action="">
+            <div class="box">
+                <p>Check in <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Check out <span>*</span></p>
+                <input type="date" class="input">
+            </div>
+
+            <div class="box">
+                <p>Adult <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 adults</option>
+                    <option value="2"> 2 adults</option>
+                    <option value="3"> 3 adults</option>
+                    <option value="4"> 4 adults</option>
+                    <option value="5"> 5 adults</option>
+                    <option value="6"> 6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Children <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 child</option>
+                    <option value="2"> 2 child</option>
+                    <option value="3"> 3 child</option>
+                    <option value="4"> 4 child</option>
+                    <option value="5"> 5 child</option>
+                    <option value="6"> 6 child</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Rooms <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 Rooms</option>
+                    <option value="2"> 2 Rooms</option>
+                    <option value="3"> 3 Rooms</option>
+                    <option value="4"> 4 Rooms</option>
+                    <option value="5"> 5 Rooms</option>
+                    <option value="6"> 6 Rooms</option>
+                </select>
+            </div>
+            <input type="submit" value="Check avaliability" class="btn" >
+        </form>
+    </section>
+    <!--Avaliability ends here-->
+
+    <!--About starts here-->
+
+    <section class="about" id="about">
+        <div class="row">
+            <div class="image">
+                <img src="images/about.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>About us</h3>
+                <p>cdndsfkdvcbxhzcbjkHcvjxzjchxvuclcxchjghxvkzc,hx</p>
+                <p>cdndsfkdvcbxhzcbjkHcvjxzjchxvuclcxchjghxvkzc,hx</p>
+            </div>
+        </div>
+    </section>
+    <!--About ends here-->
+
+    <!--Rooms starts here-->
+    <section class="room" id="room">
+        <h1 class="heading">our room</h1>
+        <div class="swiper room-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-1.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-2.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-4.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-4.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-4.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="price">$15.99/Night</span>
+                        <img src="images/room-4.jpg" alt="">
+                        <a href="" class="fas fa-shopping-cart"></a>
+                    </div>
+                    <div class="content">
+                        <h3>Exclusive Room</h3>
+                        <p>Exclusive room is made up of 3rooms conbained</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!--Rooms ends here-->
+
+    <!--service starts here-->
+    <div class="services">
+        <div class="box-container">
+            <div class="box">
+                <img src="images/service1.png" alt="">
+                <h3>Swimming Pool</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service2.png" alt="">
+                <h3>Food and Drinks</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service3.png" alt="">
+                <h3>Resturant</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service4.png" alt="">
+                <h3>Fitness</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service5.png" alt="">
+                <h3>Beauty Spa</h3>
+            </div>
+
+            <div class="box">
+                <img src="images/service6.png" alt="">
+                <h3>Resort Beach</h3>
+            </div>
+        </div>
+    </div>
+    <!--service ends here-->
+
+    <!--gallary starts here-->
+        <section class="gallary" id="gallary">
+
+            <h1 class="heading">our gallary</h1>
+
+            <div class="swiper gallary-slider">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide slide">
+                        <img src="images/gallery1.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-magnifying-glass-plus"></i>
+                        </div>
+                     </div>
+                    <div class="swiper-slide slide">
+                            <img src="images/gallery2.jpg" alt="">
+                            <div class="icon">
+                                <i class="fas fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                        <img src="images/gallery3.jpg" alt="">
+                        <div class="icon">
+                            <i class="fas fa-magnifying-glass-plus"></i>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide slide">
+                            <img src="images/gallery4.jpg" alt="">
+                            <div class="icon">
+                                <i class="fas fa-magnifying-glass-plus"></i>
+                            </div>
+                    </div>    
+                            <div class="swiper-slide slide">
+                                <img src="images/gallery5.jpg" alt="">
+                                <div class="icon">
+                                    <i class="fas fa-magnifying-glass-plus"></i>
+                                </div>
+                            </div> 
+
+                            <div class="swiper-slide slide">
+                                    <img src="images/gallery6.jpg" alt="">
+                                    <div class="icon">
+                                        <i class="fas fa-magnifying-glass-plus"></i>
+                                    </div>
+                            </div>
+               </div>    
+
+            </div>
+
+        </section>
+    <!--gallary ends here-->
+
+    <!--review starts here-->
+    <section class="review" id="review">
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-1.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-2.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-3.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-4.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-5.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <h2 class="heading">Client Review</h2>
+                    <i class="fas fa-quote-right"></i>
+                    <p>hotel resonopia is a good one</p>
+                    <div class="user">
+                        <img src="images/pic-6.png" alt="">
+                        <div class="user-info">
+                            <h3>Uche Xtian</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div> 
+
+    </section>            
+     <!--review ends here-->
+
+     <!--faq starts here-->
+     <section class="faqs" id="faqs">
+        <h1 class="heading">frequently asked question</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/FAQs.gif" alt="">
+            </div>
+            <div class="content">
+                <div class="box active">
+                    <h3>What are the method of payment </h3>
+                    <p>throug master card What are the method of payment</p>
+                </div>
+                <div class="box">
+                    <h3>What are the method of payment</h3>
+                    <p>throug master card</p>
+                </div>
+                <div class="box">
+                    <h3>What are the method of payment</h3>
+                    <p>throug master card</p>
+                </div>
+                <div class="box">
+                    <h3>What are the method of payment</h3>
+                    <p>throug master card</p>
+                </div>
+                <div class="box">
+                    <h3>What are the method of payment</h3>
+                    <p>throug master card</p>
+                </div>
+            </div>
+        </div>
+     </section>
+     <!--faq ends here-->
+
+     <!--reservations starts here-->
+     <section class="reservation" id="reservation">
+        <h1 class="heading">Book Now</h1>
+
+        <form action="">
+            <div class="container">
+                <div class="box">
+                    <p>Name <span>*</span></p>
+                    <input type="text" class="input" placeholder="Your Name">
+                </div>
+
+                <div class="box">
+                    <p>Email <span>*</span></p>
+                    <input type="text" class="input" placeholder="Your Email">
+                </div>
+
+                <div class="box">
+                    <p>Check in <span>*</span></p>
+                    <input type="date" class="input" >
+                </div>
+
+                <div class="box">
+                    <p>Check out <span>*</span></p>
+                    <input type="date" class="input" >
+                </div>
+
+               <div class="box">
+                <p>Adult <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 adults</option>
+                    <option value="2"> 2 adults</option>
+                    <option value="3"> 3 adults</option>
+                    <option value="4"> 4 adults</option>
+                    <option value="5"> 5 adults</option>
+                    <option value="6"> 6 adults</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Children <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 child</option>
+                    <option value="2"> 2 child</option>
+                    <option value="3"> 3 child</option>
+                    <option value="4"> 4 child</option>
+                    <option value="5"> 5 child</option>
+                    <option value="6"> 6 child</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Rooms <span>*</span></p>
+                <select name="adult" id="" class="input">
+                    <option value="1"> 1 Rooms</option>
+                    <option value="2"> 2 Rooms</option>
+                    <option value="3"> 3 Rooms</option>
+                    <option value="4"> 4 Rooms</option>
+                    <option value="5"> 5 Rooms</option>
+                    <option value="6"> 6 Rooms</option>
+                </select>
+            </div>
+
+            <div class="box">
+                <p>Room type <span>*</span></p>
+                <select name="type" id="" class="input">
+                    <option value="1">Excutive Rooms</option>
+                    <option value="2">Family Rooms</option>
+                    <option value="3">Daily Rooms</option>
+                    <option value="4">Panoramic Rooms</option>
+                </select>
+            </div>
+
+            </div>
+            <input type="submit" value="Check avaliability" class="btn" >
+        </form>
+     </section>
+     <!--reservations ends here-->
+
+     <!--footer starts here-->
+     <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Contact info</h3>
+                <a href=""><i class="fas fa-phone"></i>+234 813-908-7781</a>
+                <a href=""><i class="fas fa-phone"></i>+234 813-908-7781</a>
+                <a href=""><i class="fas fa-envelope"></i>uchextian001@gmail.com</a>
+                <a href=""><i class="fas fa-map"></i>Abuja, Nigeria</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Home</a>
+                <a href=""><i class="fas fa-arrow-right"></i>About</a>
+                <a href=""><i class="fas fa-arrow-right"></i>room</a>
+                <a href=""><i class="fas fa-arrow-right"></i>gallary</a>
+                <a href=""><i class="fas fa-arrow-right"></i>reservation</a>
+            </div>
+
+            <div class="box">
+                <h3>Extra links</h3>
+                <a href=""><i class="fas fa-arrow-right"></i>Refund policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Refund policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Refund policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Refund policy</a>
+                <a href=""><i class="fas fa-arrow-right"></i>Refund policy</a>
+            </div>
+        </div>
+        <div class="share">
+            <a href=""class="fas fa-facebook-f"></a>
+            <a href=""class="fas fa-instagram"></a>
+            <a href=""class="fas fa-twitter"></a>
+            <a href=""class="fas fa-pinterest"></a>
+        </div>  
+        <div class="credit">&copy; copyright@ 2023 by <span>X-TecH</span></div>
+     </section>
+     <!--footer ends here-->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/10.3.1/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
